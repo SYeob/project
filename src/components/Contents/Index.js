@@ -3,7 +3,6 @@
 import './Index.css';
 import { Link } from 'react-router-dom';
 import Clock from '../../assets/clock.png';
-
 const Index = (props) => {
   let fourItemArray = [0,1,2,3];
 
@@ -25,7 +24,7 @@ const Index = (props) => {
 
                 return (
                   <div className='col-md-3' key={i}>
-                    <img src={'https://codingapple1.github.io/shop/shoes' + (i+1) + '.jpg'} />
+                    <img src={'http://boomyeob.dothome.co.kr/img/portfolio/'+i+'.jpeg'} />
                     <div className='text-wrap'>
                       <h5>{props.itemData[i].title}</h5>
                       <p>{props.itemData[i].location}</p>

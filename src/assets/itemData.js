@@ -4,7 +4,6 @@ let itemData = [
     title: '나이키 신발',
     location: '용인시 기흥구',
     price: '75,000',
-    background: '../image/shoes2.jpeg',
   },
 
   {
@@ -12,7 +11,6 @@ let itemData = [
     title: '아이폰 13프로',
     location: '경기도 성남시',
     price: '1,075,000',
-    background: '../image/iphone.jpeg'
   },
 
   {
@@ -70,6 +68,18 @@ let itemData = [
     title: '생필품',
     location: '분당 구미동',
     price: '8,000',
+  },
+  {
+    id: 10,
+    title: '청소도구',
+    location: '미금역',
+    price: '14,000',
+  },
+  {
+    id: 11,
+    title: '워셔액',
+    location: '정자동',
+    price: '2,000',
   },
 ];
 

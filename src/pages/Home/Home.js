@@ -4,19 +4,13 @@ import Index from '../../components/Contents/Index';
 import Banner from '../../components/Banner/Banner';
 import Footer from '../../components/Footer/Footer';
 
-// data
-import navData from '../../assets/NavData';
-import indexProduct from '../../assets/indexProduct';
-import itemData from '../../assets/itemData';
-
-
-function Home() {
+function Home(props) {
   return (
     <>
-      <Header navData={navData} />
+      <Header navData={props.navData} />
       <Banner />
-      <Index navData={navData} indexProduct={indexProduct} itemData={itemData}/>
-      <Footer/>
+      <Index navData={props.navData} indexProduct={props.indexProduct} itemData={props.itemData} />
+      <Footer />
     </>
   );
 }

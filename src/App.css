@@ -20,3 +20,7 @@ ul {
   clear: both;
   display: table;
 }
+
+.sigBackColor {
+  background:#2569e0;
+}

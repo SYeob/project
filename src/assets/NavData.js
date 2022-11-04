@@ -22,7 +22,7 @@ let navData = [
     title: '패션',
     link: '/fashion',
     ele: 'Fashion',
-    indexLink: '/etc',
+    indexLink: '/other',
   },
 
   {

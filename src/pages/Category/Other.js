@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import AllMenu from '../../components/Contents/CategoryMenu/AllMenu';
+import OtherMenu from '../../components/Contents/CategoryMenu/OtherMenu';
 
-function All(props) {
+function Other(props) {
   return (
     <>
       <Header navData={props.navData} />
-        <AllMenu navData = {props.navData} indexProduct={props.indexProduct} itemData={props.itemData}/>
+      <OtherMenu navData={props.navData} indexProduct={props.indexProduct} itemData={props.itemData} />
       <Footer/>
     </>
   );
 }
 
-export default All;
+export default Other;

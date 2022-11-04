@@ -76,6 +76,9 @@ a:hover {
   transform: scale(1.05);
   color: black;
 }
+span {
+  color:#2569e0;
+}
 
 @media screen and (max-width: 1199px) {
   .col-md-3 {

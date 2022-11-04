@@ -119,9 +119,13 @@ a:hover {
     top: 0px;
     height: 800px;
     /* 모바일 메뉴 */
-    /* right:-1100px; */
+    right: -1100px;
     transition: all 0.5s;
     height: 100%;
+    z-index: 10;
+  }
+  .r0 {
+    right: 0;
   }
   .navContent li {
     width: 300px;
@@ -135,11 +139,12 @@ a:hover {
     left: 0px;
     display: block;
   }
-  .dpNone {
+ .loginText span {
     display: none;
   }
   .login-menu {
     display: block;
     font-size: 17px;
   }
+
 }
