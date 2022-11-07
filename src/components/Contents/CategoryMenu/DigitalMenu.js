@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import '../../Contents/Index.css';
+import '../../Index/Index.css';
 import Clock from '../../../assets/clock.png';
 
 function DigitalMenu(props) {

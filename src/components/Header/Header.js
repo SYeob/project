@@ -8,10 +8,10 @@ import { ReactComponent as Text } from '../../text.svg';
 import Hamberger from '../../menu.svg';
 import Close from '../../close.svg';
 import Modal from '../Modal/Modal';
-
+import { useState } from 'react';
 
 function Header(props) {
-
+  let [mobileOpen, setMobileOpen] = useState(false);
   return (
     <>
       <header>
@@ -22,22 +22,35 @@ function Header(props) {
         </Link>
         <input type='text' className='searchBar' placeholder='검색어를 입력해 주세요' />
         <a className='loginText'>
-          {/* 햄버거 */}
-          <img src={Hamberger} alt='menu'/>
+          {/* 모바일 햄버거 메뉴*/}
+          <img
+            src={Hamberger}
+            alt='menu'
+            onClick={() => {
+              setMobileOpen(!mobileOpen);
+            }}
+          />
 
-          <Modal className='dpNone' Logo={Logo} Text={Text}>로그인/회원가입</Modal>
+          <Modal className='dpNone'>로그인/회원가입</Modal>
         </a>
       </header>
       <nav>
-        <ul className='navContent r0'>
+        <ul className={`navContent ${mobileOpen ? 'active' : ''}`}>
           {/* 햄버거메뉴에 로그인 추가 */}
           <span className='login-menu'>
             <li>
-              <img src={Close} alt='' className='closeBtn' />
+              <img
+                src={Close}
+                alt=''
+                className='closeBtn'
+                onClick={() => {
+                  setMobileOpen(!mobileOpen);
+                }}
+              />
             </li>
-            <a className='login-li'>
-              <Modal>로그인</Modal>
-            </a>
+            <li className='login-li'>
+              <Modal></Modal>
+            </li>
             {/* map 반복문 */}
           </span>
           {props.navData.map(function (a, i) {

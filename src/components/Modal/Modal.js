@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Kakao from './Kakao';
+import { ReactComponent as Logo } from '../../logo.svg';
+import { ReactComponent as Text } from '../../text.svg';
 
 function LoginModal(props) {
   const [show, setShow] = useState(false);
@@ -20,9 +22,9 @@ function LoginModal(props) {
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <div className='modal-logo'>
-            <props.Logo />
+            <Logo />
             <span />
-            <props.Text />
+            <Text />
           </div>
         </Modal.Header>
         <Modal.Body>

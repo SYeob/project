@@ -9,26 +9,30 @@ import Car from './pages/Category/Car';
 import Living from './pages/Category/Living';
 import Sport from './pages/Category/Sport';
 import Other from './pages/Category/Other';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
+import Detail from './pages/Detail/Detail';
+
 
 // data
 import navData from './assets/NavData';
 import indexProduct from './assets/indexProduct';
 import itemData from './assets/itemData';
 import Hot from './pages/Category/Hot';
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
         <Route path='/all' element={<All navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/digital' element={<Digital navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/fashion' element={<Fashion navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/car' element={<Car navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/living' element={<Living navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/sport' element={<Sport navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
-        <Route path='/other' element={<Other navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
+        <Route path='/digital' element={<Digital navData={navData} itemData={itemData} />} />
+        <Route path='/fashion' element={<Fashion navData={navData} itemData={itemData} />} />
+        <Route path='/car' element={<Car navData={navData} itemData={itemData} />} />
+        <Route path='/living' element={<Living navData={navData} itemData={itemData} />} />
+        <Route path='/sport' element={<Sport navData={navData} itemData={itemData} />} />
+        <Route path='/other' element={<Other navData={navData} itemData={itemData} />} />
         <Route path='/hot' element={<Hot/>} />
+        <Route path='*' element={<ErrorPage/>} />
+        <Route path='/detail/:id' element={<Detail navData={navData} itemData={itemData} />}></Route>
       </Routes>
     </BrowserRouter>
   );
