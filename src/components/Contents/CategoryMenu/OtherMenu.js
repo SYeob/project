@@ -3,6 +3,7 @@
 import React from 'react';
 import '../../Index/Index.css';
 import Clock from '../../../assets/clock.png';
+import { Link } from 'react-router-dom';
 
 function OtherMenu(props) {
   return (
@@ -17,7 +18,12 @@ function OtherMenu(props) {
           {props.itemData.map(function (a, i) {
             return (
               <div className='col-md-3' key={i}>
-                <img src={'http://boomyeob.dothome.co.kr/img/portfolio/'+i+'.jpeg'} />
+                <div className='hover-wrap'>
+                  <button>
+                    <Link to={'/detail/' + props.itemData[i].id}>응찰하기</Link>
+                  </button>
+                </div>
+                <img src={'http://boomyeob.dothome.co.kr/img/portfolio/' + i + '.jpeg'} />
                 <div className='text-wrap'>
                   <h5>{props.itemData[i].title}</h5>
                   <p>{props.itemData[i].location}</p>

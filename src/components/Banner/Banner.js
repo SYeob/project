@@ -1,5 +1,5 @@
 import './Banner.css'
-import BannerImg from '../../assets/banner.png'
+import BannerImg from '../../assets/banner3.png'
 const Banner = (props) => {
   return (
   <div>

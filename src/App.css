@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
 }
 
 a,
@@ -20,13 +21,6 @@ ul {
   display: table;
 }
 
-.App {
-  text-align: center;
-
+.sigBackColor {
+  background:#2569e0;
 }
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-

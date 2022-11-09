@@ -1,4 +1,6 @@
 /* 헤더 */
+
+
 header {
   width: 100%;
   height: 60px;
@@ -27,6 +29,7 @@ header a > span {
   position: absolute;
   left: 400px;
   text-align: start;
+  
 }
 .searchBar::placeholder {
   font-size: 14px;
@@ -43,12 +46,14 @@ header a > span {
   top: 20px;
   right: 60px;
   font-weight: bold;
+  
 }
 
 nav {
   width: 100%;
   height: 50px;
   box-shadow: 3px 5px 5px rgb(189, 189, 189);
+  
 }
 
 .navContent {
