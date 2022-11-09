@@ -49,7 +49,7 @@ function DetailContent(props) {
       return <div className='container'>
         <h5>{props.itemData[id].discription}</h5>
         <div className='mt100'>
-          <img src={'http://boomyeob.dothome.co.kr/img/portfolio/' + id + '.jpeg'} width='70%' />
+        <img src={'/'+id+'.jpeg'}  width={'100%'}/>
         </div>
         </div>
     }
