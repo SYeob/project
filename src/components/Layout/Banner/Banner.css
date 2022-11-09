@@ -1,0 +1,18 @@
+.banner {
+    width: 300vw;
+    height: 300px;
+    margin-top: 1px;
+  }
+  
+  .banner div {
+    width: 100vw;
+    height: inherit;
+  }
+  
+  .banner div img {
+    width: 100vw;
+    height: inherit;
+    float: left;
+    background: center;
+    background-size: cover;
+  }
