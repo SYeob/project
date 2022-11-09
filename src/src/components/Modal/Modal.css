@@ -1,0 +1,21 @@
+span {
+  margin-left: 10px;
+}
+
+.modal-logo{
+  position: relative;
+  left:30%;
+  transform: translate(0%)
+}
+
+.modal-close-btn {
+  background: white;
+  color: rgb(49, 49, 49);
+  border: none;
+}
+.modal-close-btn:hover {
+  background: white;
+  color: black;
+  border: none;
+  transform: translate(1.05);
+}

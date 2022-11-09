@@ -1,0 +1,32 @@
+/* 푸터 */
+footer {
+    width: 100%;
+    height: 120px;
+    box-shadow: 0 5px 5px 5px grey;
+    padding: 10px;
+  }
+  .footer-logo {
+    margin-top: 10px;
+  }
+  footer span {
+    margin-left: 10px;
+  }
+  .footer-flex {
+    display: flex;
+    justify-content: center;
+  
+  }
+  footer li {
+    padding: 10px;
+  }
+  footer li a {
+    display: block;
+    color: black;
+    font-size: 13px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  
+  
+  /* 푸터끝 */

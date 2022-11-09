@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+a,
+p,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.sigBackColor {
+  background:#2569e0;
+}

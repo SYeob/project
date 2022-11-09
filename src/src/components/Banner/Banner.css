@@ -1,0 +1,24 @@
+.banner {
+    width: 297vw;
+    height: 300px;
+    margin-top: 1px;
+    background: #eee;
+
+  }
+  
+  .banner div {
+    width: 99vw;
+    height: inherit;
+    overflow: hidden;
+
+
+  }
+  
+  .banner div img {
+    width: 100vw;
+    height: inherit;
+    float: left;
+    background: center;
+    background-size: cover;
+
+  }

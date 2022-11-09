@@ -1,0 +1,23 @@
+.kakaoImg {
+    color: #191600;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    background: #fee501;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 5px;  
+    font-size: 14px;
+    font-weight: bold; 
+}
+.kakaoImg:hover {
+    transform: scale(1);
+}
+.kakaoIcon {
+    position: absolute;
+    width: 5%;
+    left:15%;
+    top: 24px;
+    z-index: 100;
+    cursor: pointer;
+}
