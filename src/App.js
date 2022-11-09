@@ -20,6 +20,8 @@ import indexProduct from './assets/indexProduct';
 import itemData from './assets/itemData';
 import Hot from './pages/Category/Hot';
 
+
+
 function App() {
   return (
     <BrowserRouter>

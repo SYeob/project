@@ -23,7 +23,7 @@ function AllMenu(props) {
                     <Link to={'/detail/' + props.itemData[i].id}>응찰하기</Link>
                   </button>
                 </div>
-                <img src={'http://boomyeob.dothome.co.kr/img/portfolio/' + i + '.jpeg'} />
+                <img src={'/'+i+'.jpeg'}  />
                 <div className='text-wrap'>
                   <h5>{props.itemData[i].title}</h5>
                   <p>{props.itemData[i].location}</p>
