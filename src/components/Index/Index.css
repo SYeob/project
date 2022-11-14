@@ -175,4 +175,50 @@ span {
     font-size: 18px;
     font-weight: bold;
   }
+
+  @media screen and (max-width: 500px) {
+    .hover-wrap {
+      width: 45.5%;
+    }
+    .flex h5 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 17%;
+    }
+  }
+
+  @media screen and (max-width: 453px) {
+    .flex h5 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 431px) {
+    .hover-wrap {
+      width: 44%;
+      height: 300px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+
 }
