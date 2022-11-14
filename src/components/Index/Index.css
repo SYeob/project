@@ -200,8 +200,8 @@ span {
   }
   @media screen and (max-width: 431px) {
     .hover-wrap {
-      width: 44%;
-      height: 300px;
+      width: 43.9%;
+      height: 291px;
     }
     .col-md-3 {
       width: 54%;
@@ -218,6 +218,40 @@ span {
     .flex h5 {
       font-size: 12px;
       font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 13px;
+      color: #2569e0;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 397px) {
+    .hover-wrap {
+      width: 44%;
+      height: 290px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 12px;
+      color: #2569e0;
+      position: relative;
     }
   }
 
