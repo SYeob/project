@@ -1,0 +1,377 @@
+.container {
+  margin-top: 10px;
+  padding: 50px;
+  text-align: none;
+  transition: all 0.3s;
+}
+
+.col-md-3 {
+  box-shadow: 0px 2px 3px grey;
+  padding: 0;
+  margin: 10px 10px 50px;
+  width: 23%;
+  border-radius: 15px;
+}
+.hover-wrap {
+  position: absolute;
+  width: 288px;
+  height: 302px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  display: none;
+  transition: all 0.3s;
+}
+.hover-wrap button {
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  background: #2569e0;
+  margin-top: 120px;
+  transition: all 0.3s;
+}
+.hover-wrap button a {
+  color: white;
+  display: block;
+}
+
+.hover-wrap button:hover {
+  background: #1a4a9e;
+}
+
+.col-md-3:hover .hover-wrap {
+  display: block;
+}
+
+.col-md-3 img {
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 170px;
+  border-radius: 15px 15px 0 0;
+  background: center center;
+  background-size: cover;
+}
+
+.text-wrap {
+  width: 100%;
+  padding: 14px;
+  float: left;
+  margin: 0;
+  text-align: left;
+}
+
+.text-wrap h5 {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-wrap p {
+  text-align: left;
+
+  font-size: 10px;
+  color: grey;
+  font-weight: bold;
+}
+
+.price-wrap p {
+  margin: 0;
+  font-size: 16px;
+  color: #2569e0;
+  position: relative;
+}
+.price-wrap p:nth-child(2) {
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex img {
+  width: 15px;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 18%;
+}
+.flex h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+a:hover {
+  transform: scale(1.05);
+  color: black;
+}
+span {
+  color: #2569e0;
+}
+@media screen and (max-width: 1399px) {
+  .hover-wrap {
+    width: 246px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hover-wrap {
+    width: 200px;
+  }
+  .col-md-3 {
+    width: 22.6%;
+  }
+  .flex img {
+    width: 15px;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 3%;
+  }
+  .flex h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hover-wrap {
+    width: 258px;
+  }
+  .col-md-3 {
+    width: 40%;
+  }
+  .flex img {
+    width: 15px;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 23%;
+  }
+  .flex h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .row {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hover-wrap {
+    width: 250px;
+  }
+  .col-md-3 {
+    width: 54%;
+    margin: 30px auto;
+  }
+
+  .flex img {
+    width: 15px;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 20%;
+  }
+
+  .flex h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 535px) {
+    .hover-wrap {
+      width: 46.2%;
+    }
+    .flex h5 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 17%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .hover-wrap {
+      width: 45.5%;
+    }
+    .flex h5 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 17%;
+    }
+  }
+
+  @media screen and (max-width: 488px) {
+    .flex h5 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  }
+  @media screen and (max-width: 453px) {
+    .flex h5 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    
+  }
+  @media screen and (max-width: 431px) {
+    .hover-wrap {
+      width: 43.9%;
+      height: 291px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 13px;
+      color: #2569e0;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 397px) {
+    .hover-wrap {
+      width: 44%;
+      height: 290px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 12px;
+      color: #2569e0;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 388px) {
+    .hover-wrap {
+      width: 43.7%;
+      height: 286px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 11px;
+      color: #2569e0;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .hover-wrap {
+      width: 41.7%;
+      height: 286px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 10px;
+      color: #2569e0;
+      position: relative;
+    }
+    a{
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 337px) {
+    .hover-wrap {
+      width: 62%;
+      height: 292px;
+    }
+    .col-md-3 {
+      width: 80%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 0%;
+    }
+  
+    .flex h5 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 13px;
+      color: #2569e0;
+      position: relative;
+    }
+    a{
+      font-size: 16px;
+    }
+  }
+
+
+}
