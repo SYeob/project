@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.86aba164.css",
-    "main.js": "/static/js/main.fa2dbf02.js",
-    "static/js/787.5d6784c8.chunk.js": "/static/js/787.5d6784c8.chunk.js",
-    "static/media/banner.png": "/static/media/banner.01c88f21b6d46a51b7ba.png",
-    "static/media/text.svg": "/static/media/text.d31ed34b1c016d59f805b19e54d3fd1a.svg",
-    "static/media/logo.svg": "/static/media/logo.d4b08a8d2fe6e42fddb4f7e53ca3ca79.svg",
-    "index.html": "/index.html",
-    "static/media/close.svg": "/static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
-    "static/media/menu.svg": "/static/media/menu.113d59e2703636dfe157ec8ec962d598.svg",
-    "main.86aba164.css.map": "/static/css/main.86aba164.css.map",
-    "main.fa2dbf02.js.map": "/static/js/main.fa2dbf02.js.map",
-    "787.5d6784c8.chunk.js.map": "/static/js/787.5d6784c8.chunk.js.map"
+    "main.css": "./static/css/main.dfd5bf10.css",
+    "main.js": "./static/js/main.bc55e837.js",
+    "static/js/787.5d6784c8.chunk.js": "./static/js/787.5d6784c8.chunk.js",
+    "static/media/banner2.png": "./static/media/banner2.23e55732c02687590ec4.png",
+    "static/media/banner4.png": "./static/media/banner4.101b3acc8f307dcddbd5.png",
+    "static/media/banner3.png": "./static/media/banner3.75324f9b45a0c543d7fd.png",
+    "static/media/text.svg": "./static/media/text.d31ed34b1c016d59f805b19e54d3fd1a.svg",
+    "static/media/logo.svg": "./static/media/logo.d4b08a8d2fe6e42fddb4f7e53ca3ca79.svg",
+    "index.html": "./index.html",
+    "static/media/close.svg": "./static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
+    "static/media/menu.svg": "./static/media/menu.113d59e2703636dfe157ec8ec962d598.svg",
+    "main.dfd5bf10.css.map": "./static/css/main.dfd5bf10.css.map",
+    "main.bc55e837.js.map": "./static/js/main.bc55e837.js.map",
+    "787.5d6784c8.chunk.js.map": "./static/js/787.5d6784c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86aba164.css",
-    "static/js/main.fa2dbf02.js"
+    "static/css/main.dfd5bf10.css",
+    "static/js/main.bc55e837.js"
   ]
 }

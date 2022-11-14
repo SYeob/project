@@ -16,7 +16,7 @@ let itemData = [
     id: 1,
     title: '아이폰 13프로',
     location: '경기도 성남시',
-    price: '1,075,000',
+    price: '975,000',
     discription: '산지 일주일된 아이폰 13프로입니다. 풀박스로 드려요',
     Contact: '010-X4XX-XX1X',
     classification: 1,

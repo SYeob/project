@@ -22,6 +22,7 @@ import Hot from './pages/Category/Hot';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -47,12 +48,12 @@ function App() {
 export default App;
 
 // Route map 반복문 (element에서 막힘)
-{
+
   /* {navData.map((a, i) => {
           return (
               <Route key={i} path={navData[i].link} element={<All navData={navData} indexProduct={indexProduct} itemData={itemData} />} />
           );
         })} */
-}
+
 
 //

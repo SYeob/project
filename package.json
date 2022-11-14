@@ -1,5 +1,5 @@
 {
-  "homepage": "http://pabi.com/",
+  "homepage": ".",
   "name": "pabi_master",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,13 @@
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
