@@ -282,5 +282,36 @@ span {
       position: relative;
     }
   }
+  @media screen and (max-width: 360px) {
+    .hover-wrap {
+      width: 41.7%;
+      height: 286px;
+    }
+    .col-md-3 {
+      width: 54%;
+      margin: 30px auto;
+    }
+  
+    .flex img {
+      width: 15px;
+      height: 100%;
+      border-radius: 50%;
+      margin-left: 3%;
+    }
+  
+    .flex h5 {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .price-wrap p {
+      margin: 0;
+      font-size: 10px;
+      color: #2569e0;
+      position: relative;
+    }
+    a{
+      font-size: 12px;
+    }
+  }
 
 }
