@@ -31,6 +31,15 @@ header a > span {
   text-align: start;
   
 }
+.searchIcon {
+  position:absolute;
+  z-index: 10;
+  left:660px;
+  background-size: cover;
+  width:35px;
+  margin-top: 12px;
+  cursor: pointer;
+}
 .searchBar::placeholder {
   font-size: 14px;
   width: 90%;
@@ -156,5 +165,20 @@ a:hover {
   }
   .login-menu span {
     margin-right: 20px;
+  }
+  .searchIcon {
+    position: absolute;
+    margin-top: 90px;
+    left: 64%;
+  }
+}
+@media screen and (max-width: 794px) {
+  .searchIcon {
+    left: 65%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .searchIcon {
+    left: 78%;
   }
 }

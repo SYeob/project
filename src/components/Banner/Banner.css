@@ -8,6 +8,8 @@
 .banner div img {
   width: 100%;
   display: block;
+  background-size: cover;
+  height: 370px;
 }
 
 @media screen and (max-width:767px) {

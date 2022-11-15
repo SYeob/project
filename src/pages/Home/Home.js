@@ -7,10 +7,11 @@ import Footer from '../../components/Footer/Footer';
 function Home(props) {
   return (
     <>
-      <Header navData={props.navData} />
+      <Header navData={props.navData} itemData={props.itemData} />
       <Banner />
       <Index navData={props.navData} indexProduct={props.indexProduct} itemData={props.itemData} />
       <Footer />
+
     </>
   );
 }

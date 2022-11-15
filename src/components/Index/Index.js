@@ -3,6 +3,7 @@
 import './Index.css';
 import { Link } from 'react-router-dom';
 import Clock from '../../assets/clock.png';
+import Timer from '../Timer/Timer';
 const Index = (props) => {
   let fourItemArray = [0, 1, 2, 3];
 
@@ -33,7 +34,7 @@ const Index = (props) => {
                     <div className='flex'>
                       <p>{props.itemData[i].price}</p>
                       <img src={Clock} className='clockImg' />
-                      <h5 className='clock'>03:30:12 초</h5>
+                      <h5 className='clock'><Timer/></h5>
                     </div>
                   </div>
                 </div>

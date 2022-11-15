@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 // icon
 import { ReactComponent as Logo } from '../../logo.svg';
 import { ReactComponent as Text } from '../../text.svg';
+import  { ReactComponent  as SearchIcon} from '../../assets/search.svg';
 import Hamberger from '../../menu.svg';
 import Close from '../../close.svg';
 import Modal from '../Modal/Modal';
@@ -14,6 +15,9 @@ function Header(props) {
   
   let [mobileOpen, setMobileOpen] = useState(false);
 
+
+
+
   return (
     <>
       <header>
@@ -22,7 +26,8 @@ function Header(props) {
           <span />
           <Text />
         </Link>
-        <input type='text' className='searchBar' placeholder='검색어를 입력해 주세요' />
+        <input type='text' className='searchBar' placeholder='검색어를 입력해 주세요'/>
+        <SearchIcon className='searchIcon' type='submit' />
         <a className='loginText'>
           {/* 모바일 햄버거 메뉴*/}
           <img

@@ -9,7 +9,7 @@ let itemData = [
     subcategories: 'fashion',
     caution:
       `회원님이 입찰한 가격이 낙찰금액으로 결정될 수 있습니다.낙찰시 취소할 수 없습니다. 신중하게 입찰해주세요. 판매자의 사정으로 경매가 중단될 수 있습니다. 경매가 종료되면 낙찰자와 판매자에게 전화번호를 공개합니다. 희망가와 같거나 높은금액으로 응찰하면 즉시 낙찰됩니다.`,
-    
+    keyword:'',
   },
 
   {
@@ -119,6 +119,7 @@ let itemData = [
     Contact: '010-X64X-X5XX',
     subcategories: 'car',
   },
+
 ];
 
 export default itemData;

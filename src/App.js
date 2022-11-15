@@ -19,6 +19,7 @@ import Help from './pages/Help/Help';
 import navData from './assets/NavData';
 import indexProduct from './assets/indexProduct';
 import itemData from './assets/itemData';
+import { firestore } from "./firebase";
 // import {db} from './index.js'
 // import "firebase/firestore"; 
 
@@ -26,6 +27,7 @@ import itemData from './assets/itemData';
 
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
