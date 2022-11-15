@@ -7,5 +7,22 @@
 
 .banner div img {
   width: 100%;
+  display: block;
 }
 
+@media screen and (max-width:767px) {
+  .banner {
+    height: 80%;
+  }
+  .banner div img {
+    height: 200px;
+  }
+}
+@media screen and (max-width:537px) {
+  .banner {
+    height: 100%;
+  }
+  .banner div img {
+    height: 250px;
+  }
+}

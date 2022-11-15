@@ -49,7 +49,7 @@ let navData = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: '기타 물품',
     link: '/other',
     ele: 'Other',

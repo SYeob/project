@@ -15,30 +15,73 @@ function LivingMenu(props) {
         </div>
 
         <div className='row'>
-          {props.itemData.map(function (a, i) {
-            return (
-              <div className='col-md-3' key={i}>
+
+        
+
+              <div className='col-md-3' >
                 <div className='hover-wrap'>
                   <button>
-                    <Link to={'/detail/' + props.itemData[i].id}>응찰하기</Link>
+                    <Link to={'/detail/' + props.itemData[6].id}>응찰하기</Link>
                   </button>
                 </div>
-                <img src={'/'+i+'.jpeg'}  />
+                <img src={'/'+6+'.jpeg'}  />
                 <div className='text-wrap'>
-                  <h5>{props.itemData[i].title}</h5>
-                  <p>{props.itemData[i].location}</p>
+                  <h5>{props.itemData[6].title}</h5>
+                  <p>{props.itemData[6].location}</p>
                   <div className='price-wrap'>
                     <p>현재가</p>
                     <div className='flex'>
-                      <p>{props.itemData[i].price}</p>
+                      <p>{props.itemData[6].price}</p>
                       <img src={Clock} />
                       <h5 className='clock'>03:30:12 초</h5>
                     </div>
                   </div>
                 </div>
               </div>
-            );
-          })}
+
+              <div className='col-md-3' >
+                <div className='hover-wrap'>
+                  <button>
+                    <Link to={'/detail/' + props.itemData[9].id}>응찰하기</Link>
+                  </button>
+                </div>
+                <img src={'/'+9+'.jpeg'}  />
+                <div className='text-wrap'>
+                  <h5>{props.itemData[9].title}</h5>
+                  <p>{props.itemData[9].location}</p>
+                  <div className='price-wrap'>
+                    <p>현재가</p>
+                    <div className='flex'>
+                      <p>{props.itemData[9].price}</p>
+                      <img src={Clock} />
+                      <h5 className='clock'>03:30:12 초</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='col-md-3' >
+                <div className='hover-wrap'>
+                  <button>
+                    <Link to={'/detail/' + props.itemData[10].id}>응찰하기</Link>
+                  </button>
+                </div>
+                <img src={'/'+10+'.jpeg'}  />
+                <div className='text-wrap'>
+                  <h5>{props.itemData[10].title}</h5>
+                  <p>{props.itemData[10].location}</p>
+                  <div className='price-wrap'>
+                    <p>현재가</p>
+                    <div className='flex'>
+                      <p>{props.itemData[10].price}</p>
+                      <img src={Clock} />
+                      <h5 className='clock'>03:30:12 초</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
         </div>
       </div>
     </div>

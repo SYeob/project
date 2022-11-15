@@ -11,7 +11,9 @@ import Modal from '../Modal/Modal';
 import { useState } from 'react';
 
 function Header(props) {
+  
   let [mobileOpen, setMobileOpen] = useState(false);
+
   return (
     <>
       <header>
@@ -51,7 +53,7 @@ function Header(props) {
             <li className='login-li'>
               <Modal></Modal>
             </li>
-            {/* map 반복문 */}
+            {/*내비바 map 반복문 */}
           </span>
           {props.navData.map(function (a, i) {
             return (

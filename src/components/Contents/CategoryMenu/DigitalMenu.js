@@ -14,31 +14,47 @@ function DigitalMenu(props) {
         </div>
 
         <div className='row'>
-          {props.itemData.map(function (a, i) {
-            return (
-              <div className='col-md-3' key={i}>
+              <div className='col-md-3'>
                 <div className='hover-wrap'>
                   <button>
-                    <Link to={'/detail/' + props.itemData[i].id}>응찰하기</Link>
+                    <Link to={'/detail/' + props.itemData[1].id}>응찰하기</Link>
                   </button>
                 </div>
-                <img src={'/'+i+'.jpeg'}  />
+                <img src={'/'+1+'.jpeg'}  />
 
                 <div className='text-wrap'>
-                  <h5>{props.itemData[i].title}</h5>
-                  <p>{props.itemData[i].location}</p>
+                  <h5>{props.itemData[1].title}</h5>
+                  <p>{props.itemData[1].location}</p>
                   <div className='price-wrap'>
                     <p>현재가</p>
                     <div className='flex'>
-                      <p>{props.itemData[i].price}</p>
+                      <p>{props.itemData[1].price}</p>
                       <img src={Clock} />
                       <h5 className='clock'>03:30:12 초</h5>
                     </div>
                   </div>
                 </div>
               </div>
-            );
-          })}
+              <div className='col-md-3' >
+                <div className='hover-wrap'>
+                  <button>
+                    <Link to={'/detail/' + props.itemData[8].id}>응찰하기</Link>
+                  </button>
+                </div>
+                <img src={'/'+8+'.jpeg'}  />
+                <div className='text-wrap'>
+                  <h5>{props.itemData[8].title}</h5>
+                  <p>{props.itemData[8].location}</p>
+                  <div className='price-wrap'>
+                    <p>현재가</p>
+                    <div className='flex'>
+                      <p>{props.itemData[8].price}</p>
+                      <img src={Clock} />
+                      <h5 className='clock'>03:30:12 초</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </div>

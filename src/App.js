@@ -12,13 +12,15 @@ import Other from './pages/Category/Other';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Detail from './pages/Detail/Detail';
 import About from './pages/About/About';
+import Hot from './pages/Category/Hot';
 import Help from './pages/Help/Help';
 
 // data
 import navData from './assets/NavData';
 import indexProduct from './assets/indexProduct';
 import itemData from './assets/itemData';
-import Hot from './pages/Category/Hot';
+// import {db} from './index.js'
+// import "firebase/firestore"; 
 
 
 
@@ -45,7 +47,12 @@ function App() {
   );
 }
 
+
+
+
+
 export default App;
+
 
 // Route map 반복문 (element에서 막힘)
 

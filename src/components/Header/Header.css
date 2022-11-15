@@ -97,6 +97,9 @@ a:hover {
 /* 헤더 끝 */
 
 @media screen and (max-width: 885px) {
+  header {
+    overflow: hidden;
+  }
   li a {
     font-size: 13px;
   }
