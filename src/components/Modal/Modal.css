@@ -19,3 +19,12 @@ span {
   border: none;
   transform: translate(1.05);
 }
+
+.GoogleImg {
+  position: absolute;
+  width: 5%;
+  left:15%;
+  top: 24px;
+  z-index: 100;
+  cursor: pointer;
+}

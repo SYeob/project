@@ -4,8 +4,13 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Kakao from './Kakao';
+import Google from './Google';
+
 import { ReactComponent as Logo } from '../../logo.svg';
 import { ReactComponent as Text } from '../../text.svg';
+
+
+
 
 function LoginModal(props) {
   const [show, setShow] = useState(false);
@@ -28,6 +33,7 @@ function LoginModal(props) {
           </div>
         </Modal.Header>
         <Modal.Body>
+          <Google/>
           <Kakao />
         </Modal.Body>
         <Modal.Footer>

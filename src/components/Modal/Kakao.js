@@ -10,6 +10,7 @@ function Kakao() {
     <>
     <img src={KakaoIcon} className="kakaoIcon" alt="kakaoicon" />
       <a className='kakaoImg'href={KAKAO_AUTH_URL}>카카오 로그인</a>
+      
     </>
   );
 }
